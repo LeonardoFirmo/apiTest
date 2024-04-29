@@ -13,6 +13,8 @@ async function connectDatabase() {
 
     try {
 
+        console.log(user);
+        console.log(password);
         await mongoose.connect(`mongodb+srv://${user}:${password}@cluster0.aqmwa6g.mongodb.net/`);
         console.log('conectado');
         return true;
