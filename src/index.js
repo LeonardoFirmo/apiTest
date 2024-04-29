@@ -5,10 +5,6 @@ import dotenv from 'dotenv';
 import routes from './routes.js'
 
 
-
-
-
-
 // Config Base
 const app = express();
 dotenv.config();
